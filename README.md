@@ -8,16 +8,6 @@ A simple and responsive weather application that displays real-time weather info
 - ⚡ **Fast Loading**: Lightweight frontend and quick API responses
 - 🔒 **Secure API Key**: Uses environment variables to hide sensitive keys
 - 🌍 **Global Support**: Works for cities around the world using WeatherAPI
-##  Acknowledgements
-
-I would like to thank the following:
-
-- [WeatherAPI](https://www.weatherapi.com/) for providing the free weather data API.
-- [Node.js](https://nodejs.org/) and [Express.js](https://expressjs.com/) for powering the backend.
-- [Bootstrap](https://getbootstrap.com/) for quick and responsive UI styling.
-- The open-source community for resources and inspiration.
-
-This project was created as a part of my learning journey in web development and API integration.
 ## 🛠️ Tech Stack
 
 **Frontend:**
@@ -35,22 +25,6 @@ This project was created as a part of my learning journey in web development and
 **Tools:**
 - Git & GitHub (for version control)
 - dotenv (to manage environment variables)
-## 🚀 Installation
-
-Get your local copy of this weather app up and running in a few simple steps.
-
----
-
-### 🧰 Prerequisites
-
-Before you begin, make sure you have the following:
-
-- [Node.js](https://nodejs.org) installed  
-- [Git](https://git-scm.com/) installed  
-- A free API key from [WeatherAPI](https://www.weatherapi.com/)
-
----
-
 ### 🛠️ Steps to Install
 
 #### 1. **Clone the Repository**
@@ -58,7 +32,100 @@ Before you begin, make sure you have the following:
 ```bash
 git clone https://github.com/vanshgupta74/Weather_web_Application.git
 cd weather-app
+```
 
-“This command downloads the project and moves into the folder.”
+> This command downloads the project and moves into the folder.
 
-## Install Dependencie
+#### 2. **Install Dependencies**
+
+```bash
+npm install
+```
+
+> This will install all the necessary packages into the `node_modules` folder.
+
+#### 3. **Create a `.env` file**
+
+```ini
+WEATHER_API_KEY=your_api_key_here
+```
+
+>You’ll need to sign up at weatherapi.com for a free key. This file is used to store secrets securely and is not shared publicly.
+
+#### 4. **Start the Server**
+
+```bash
+ node app.js
+```
+
+>If everything’s set up, your app will run on port.
+
+#### 5. **Open in Browser**
+
+```ardunio
+http://localhost:
+```
+
+>This runs locally on your machine. It’s not yet public unless deployed online.
+## 🗂️ Project Structure
+
+Here's how the files and folders are organized in this project:
+
+weather-app/
+├── public/
+│ ├── index.html # Frontend HTML file
+│ ├── style.css # Optional CSS file
+│ └── script.js # JavaScript to handle API calls & UI
+│
+├── .env # Environment file for API key (not uploaded to GitHub)
+├── .gitignore # Hides node_modules and .env from version control
+├── package.json # Project metadata and dependencies
+├── package-lock.json # Auto-generated to lock dependency versions
+├── server.js # Main Node.js backend server (or app.js)
+└── README.md # Project documentation
+## 🖼️ Screenshots
+
+Here’s a quick preview of the Weather App UI:
+
+### 🌤️ Home Page
+
+![Weather App Screenshot](./screenshots/homepage.png)
+
+📝 This screenshot shows the main interface where users can:
+
+- Enter a city name
+- View real-time weather data
+- See temperature, condition, wind, and more
+
+---
+
+> 📌 Tip: Make sure to place your screenshot image inside a folder named `screenshots` in your project, and name it something like `homepage.png`.
+>  
+> Example path: `weather-app/screenshots/homepage.png`
+##  Acknowledgements
+
+I would like to thank the following:
+
+- [WeatherAPI](https://www.weatherapi.com/) for providing the free weather data API.
+- [Node.js](https://nodejs.org/) and [Express.js](https://expressjs.com/) for powering the backend.
+- [Bootstrap](https://getbootstrap.com/) for quick and responsive UI styling.
+- The open-source community for resources and inspiration.
+
+This project was created as a part of my learning journey in web development and API integration.
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+You are free to:
+
+- ✅ Use it for personal or commercial purposes
+- ✅ Modify the code
+- ✅ Share it with others
+
+As long as you include the original copyright and license notice.
+
+---
+
+### 🔗 Full License Text
+
+You can read the full license [here](https://opensource.org/licenses/MIT).
