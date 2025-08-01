@@ -67,22 +67,27 @@ http://localhost:
 ```
 
 >This runs locally on your machine. It’s not yet public unless deployed online.
-## 🗂️ Project Structure
+## 📁 Project Structure
 
-Here's how the files and folders are organized in this project:
+The following is the directory and file structure for this weather app project:
 
 weather-app/
+
 ├── public/
-│ ├── index.html # Frontend HTML file
-│ ├── style.css # Optional CSS file
-│ └── script.js # JavaScript to handle API calls & UI
+
+│   ├── index.html        # 🧱 Frontend HTML file  
+│   ├── style.css         # 🎨 Optional CSS for styling  
+│   └── script.js         # ⚙️ JavaScript for API calls & UI logic  
+
 │
-├── .env # Environment file for API key (not uploaded to GitHub)
-├── .gitignore # Hides node_modules and .env from version control
-├── package.json # Project metadata and dependencies
-├── package-lock.json # Auto-generated to lock dependency versions
-├── server.js # Main Node.js backend server (or app.js)
-└── README.md # Project documentation
+
+├── .env                  # 🔐 Environment file for API key (not uploaded to GitHub)  
+├── .gitignore            # 📄 Ignores node_modules and .env  
+├── package.json          # 📦 Project metadata and dependencies  
+├── package-lock.json     # 🔒 Auto-generated lock file for dependencies  
+├── server.js             # 🚀 Main Node.js backend server file  
+└── README.md             # 📘 Project documentation  
+
 ## 🖼️ Screenshots
 
 Here’s a quick preview of the Weather App UI:
