@@ -55,7 +55,7 @@ WEATHER_API_KEY=your_api_key_here
 #### 4. **Start the Server**
 
 ```bash
- node app.js
+ node server.js
 ```
 
 >If everything’s set up, your app will run on port.
@@ -104,9 +104,7 @@ Here’s a quick preview of the Weather App UI:
 
 ---
 
-> 📌 Tip: Make sure to place your screenshot image inside a folder named `screenshots` in your project, and name it something like `homepage.png`.
->  
-> Example path: `weather-app/screenshots/homepage.png`
+ 
 ##  Acknowledgements
 
 I would like to thank the following:
@@ -120,14 +118,6 @@ This project was created as a part of my learning journey in web development and
 ## 📄 License
 
 This project is licensed under the **MIT License**.
-
-You are free to:
-
-- ✅ Use it for personal or commercial purposes
-- ✅ Modify the code
-- ✅ Share it with others
-
-As long as you include the original copyright and license notice.
 
 ---
 
