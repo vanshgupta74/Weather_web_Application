@@ -94,7 +94,7 @@ Here’s a quick preview of the Weather App UI:
 
 ### 🌤️ Home Page
 
-![Weather App Screenshot](./screenshots/homepage.png)
+ ![image alt](https://github.com/vanshgupta74/Weather_web_Application/blob/ff84903a366c3f0f85689c7581e04a871786707d/Home%20Page.png)
 
 📝 This screenshot shows the main interface where users can:
 
